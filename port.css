@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  footer a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+  }
+
+  #skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .skill-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .skill-item {
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    width: 300px;
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-item i {
+    color: #3498db;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  #projects {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+  
+  #projects h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .project-details {
+    padding: 20px;
+  }
+  
+  .project-details h3 {
+    margin-top: 0;
+  }
+  
+  .project-details p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
+  #skills h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  header {
+    background-color: #F5F5F5;
+    background-image: url("header-background.jpg");
+    background-size: cover;
+  }
+  nav a:hover {
+    color: #FF6347;
+    font-weight: bold;
+  }
+  header {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  #name, #title {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+  }
+  header {
+    padding: 20px;
+  }
+  #contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #education {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .education-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .education-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .education-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .education-details {
+    padding: 20px;
+  }
+  
+  .education-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .education-details p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .education-details a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  
