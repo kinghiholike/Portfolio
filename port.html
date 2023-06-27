@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>King Hiholike</title>
+    
+    <link rel="stylesheet" href="port.css">
+    <script src="port.js"></script>
+    <link rel="icon" type="image/x-icon" href="docs\android-chrome-192x192.png">
+  </head>
+  <body>
+    <header>
+      <h1 id="name">King Hiholike</h1>
+      <br>
+      <br>
+      <h1 id="title">Software Developer</h1>
+      <br>
+    
+      <nav>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact 2">Contact</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="docs\King hiholike.pdf">Download Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <script>
+      // Animate the name and title
+      const name = document.querySelector('#name');
+      const title = document.querySelector('#title');
+    
+      name.addEventListener('mouseover', () => {
+        name.style.color = 'red';
+      });
+    
+      title.addEventListener('mouseover', () => {
+        title.style.transform = 'rotate(360deg)';
+      });
+    
+      // Smooth scrolling effect for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+    
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+    
+    <main>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <img src="docs\ballerina.png" alt="Project 1">
+            <div class="project-details">
+              <h3>Ballerina API'S </h3>
+              <p>Ballerina programing language build tool and package manager. Among other things, ballerina helps you to create, build, test, and run your package. The latest bal tool version is available with the latest Ballerina installation.</p>
+              <a href="https://gitlab.com/dashboard/projects" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="docs\confernce.jpg" alt="Project 2">
+            <div class="project-details">
+              <h3>Conference Website</h3>
+              <p>Conference website that enables admin to manage new members , view topics and speakers as well as upcoming events. </p>
+              <a href="https://github.com/kinghiholike/Projects" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="docs\librarysystem.jpeg" alt="Project 3">
+            <div class="project-details">
+              <h3>Library Management System</h3>
+              <p>A system that enables admin to administer books orderd and prescripe new books , as well as the registration of new members in to the library.</p>
+              <a href="https://github.com/kinghiholike/Library-management-System" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="docs\attendence.jpg" alt="Project 4">
+            <div class="project-details">
+              <h3>Android Attendence App</h3>
+              <p>An adroid native app , that allows admin to add faculty , faculty can add new students to a class and keep track of their attendence.</p>
+              <a href="" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="docs\swapo.jpg" alt="Project 5">
+            <div class="project-details">
+              <h3>Testing of SWAPO Membership Management System</h3>
+              <p>The SMMS is a system that allows for the registration of new members/Comrades , with the fuction of viewing their fees and validate the registartion of new members.</p>
+              <a href="https://github.com/marthinkondjeni/Swapo.Core" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-card">
+          <div class="skill-item">
+            <i class="fas fa-code"></i>
+            <h3>Programming Languages and tools</h3>
+            <p>Proficient in one or more programming languages such as Python, Java, JavaScript ,Kotlin,Docker,Kafka,MongoDB,Android Studio,MSQL,SQLITE.</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-database"></i>
+            <h3>Database Management</h3>
+            <p>Experience in managing databases with skills in SQL, MongoDB,Django.</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-object-ungroup"></i>
+            <h3>Object-Oriented Design</h3>
+            <p>Ability to use object-oriented design principles, such as encapsulation, inheritance, and polymorphism.</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-users"></i>
+            <h3>Agile Development</h3>
+            <p>Familiarity with Agile software development methodologies, including Scrum and Kanban.</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-hands-helping"></i>
+            <h3>Soft Skills</h3>
+            <p>Good communication skills, problem-solving skills, and the ability to work collaboratively with others.</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-bug"></i>
+            <h3>Testing and Debugging</h3>
+            <p>Knowledge of testing and debugging tools, such as JUnit, Selenium, or Jira.</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-globe"></i>
+            <h3>Web Development</h3>
+            <p>Proficiency in web development technologies such as HTML, CSS, and JavaScript, as well as knowledge of front-end frameworks like React or Angular.</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-object-ungroup"></i>
+            <h3>Android Development</h3>
+            <p>Knowledge of tools such as Android Studio , with experince in android development langauges such as Kotlin,Java and XML as well as JetpackCompose for the front-end.</p>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+          <div class="education-card">
+            <img src="docs\nu;s;t.png" alt="University Logo 1">
+            <div class="education-details">
+              <h3>Bachelor of Science in Computer Science in Software Engineering</h3>
+              <p>Namibia University of Science and Technology</p>
+              <p>Curently a student</p>
+              <p></p>
+            </div>
+          </div>
+         <!-- <div class="education-card">
+            <img src="university-logo-2.jpg" alt="University Logo 2">
+            <div class="education-details">
+              <h3>Master of Science in Information Technology</h3>
+              <p>ABC University</p>
+              <p>Graduated: May 2020</p>
+              <p>GPA: 3.9</p>
+            </div>
+          </div>-->
+        </div>
+      </section>
+      
+      
+      <section id="contact 2">
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: kinghiholike@gmail.com</li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/king-hiholike-177236205/">https://www.linkedin.com/in/king-hiholike-177236205/</a></li>
+          <li>Cellphone: +264812221609</li>
+          <li>GitHub: <a href="https://github.com/kinghiholike">https://github.com/kinghiholike</a></li>
+          <li>GitLab: <a href="https://gitlab.com/kinghiholike">https://gitlab.com/kinghiholike</a></li>
+          
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2023 King Hiholike</p>
+        <ul>
+          <li><a href="https://www.facebook.com/kingzzo.hiholike.9">Facebook</a></li>
+          <li><a href="https://wa.me/your_phone_number">WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/your_username">Instagram</a></li>
+          
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
