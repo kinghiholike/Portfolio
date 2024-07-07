@@ -25,7 +25,7 @@ body {
   
   nav ul li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;   
   }
   
   main {
@@ -90,8 +90,27 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .experince-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   
   .skill-item {
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    width: 300px;
+  }
+
+  .experince-item {
     background-color: white;
     margin: 20px;
     border-radius: 5px;
@@ -127,7 +146,19 @@ body {
     padding: 60px 0;
   }
   
+
+  #experince {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+
+  }
   #projects h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  #experince h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
@@ -146,6 +177,14 @@ body {
     margin: 20px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
     transition: transform 0.2s ease-in-out;
+  }
+
+  #experince-card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+
   }
   
   .project-card:hover {
@@ -219,6 +258,12 @@ body {
   #education {
     padding: 50px 0;
     background-color: #f8f8f8;
+  }
+
+  #education h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
   }
   
   .education-container {
